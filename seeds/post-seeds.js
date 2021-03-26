@@ -4,12 +4,12 @@ const postData = [
     {
         title: "New Space Captain app for wrist computer to launch in July",
         post_content: "I have been working closely with top developers to create an app that will allow space captains such as myself to better send, recieve and log information regarding ship maintainence and flight plans. The new app is set to launch this July and I couldn't be more excited. Keep an 'eye' out (lol) for more news on this exciting tech!",
-        user_id: 2
+        user_id: 1
     },
     {
         title: "Does this milk smell funny?",
         post_content: "Hey guys! I'm currently looking for someone to help me develop an app that can tell if milk smells funny. I have a hard time telling if it is or not and think there must be others out there like me. Let me know if you or someone you know can help me out. Yo.",
-        user_id: 1
+        user_id: 2
     },
     {
         title: "My app Tell-A-Doctor is no longer being sued!",

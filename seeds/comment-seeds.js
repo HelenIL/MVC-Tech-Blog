@@ -12,17 +12,17 @@ const commentData = [
         comment_text: "Scruffy would like to offer what little he has to support this noble cause."
     },
     {
-        user_id: 2,
+        user_id: 1,
         post_id: 3,
         comment_text: "I'm pretty sure a condition of the settlement is that you aren't allowed to talk about it publicly. You should probably take this post down, Zoidberg."
     },
     {
-        user_id: 5,
+        user_id: 4,
         post_id: 1,
-        comment_text: "Stop trying to fix what isn't broken!"
+        comment_text: "Professy will help!"
     },
     {
-        user_id: 1,
+        user_id: 2,
         post_id: 5,
         comment_text: "I couldn't agree more!"
     },

@@ -74,7 +74,7 @@ router.get('/', (req, res) => {
       }
     }).then(dbUserData => {
       if (!dbUserData) {
-        res.status(400).json({ message: 'No user with that email address!' });
+        res.status(400).json({ message: 'Login failed!' });
         return;
       }
   
