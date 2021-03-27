@@ -6,14 +6,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Space Tech Talk</title>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Chango&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/stylesheets/style.css">
   <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
 </head>
 
   <div class="wrapper">
-    <header>
-        <h1 class="has-text-black px-3 py-3 has-text-weight-bold">Space<span style="color: rgb(248, 51, 232);">Tech</span> Talk</h1>
-        <nav class="navbar mt-2">
+    <header style="background-color: rgb(184, 227, 234)">
+        <h1 class="has-text-black px-3 py-3 has-text-weight-bold"><span style="font-size: 30px; font-family: 'Chango', cursive">Space<span style="color: rgb(248, 51, 232);">Tech</span> Talk </span><span style="color: rgb(248, 51, 232)"><i class="fas fa-rocket fa-2x"></i></span></h1>
+        <nav class="navbar mt-2" style="background-color: rgb(184, 227, 234)">
             {{#if loggedIn}}
             <a href="/" class="navbar-item is-hoverable pt-1">homepage</a>
             <a href="/dashboard" class="navbar-item is-hoverable pt-1">dashboard</a>
@@ -43,7 +45,7 @@
         </div>
       <div class="row-is-full content has-text-centered">
     <p>
-      <strong>Space Tech Talk</strong> by <a href="https://github.com/HelenIL">Helen Lindberg</a>
+      <strong>Space<span style="color: rgb(248, 51, 232);">Tech</span></span> Talk</strong> by <a href="https://github.com/HelenIL">Helen Lindberg</a>
   </div>
     </footer>
   </div>
